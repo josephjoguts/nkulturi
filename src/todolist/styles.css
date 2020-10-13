@@ -1,0 +1,27 @@
+.toDoList {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toDoList h1 {
+  max-width: 300px;
+}
+.toDoList .add {
+  max-width: 50px;
+}
+.toDoList .ul {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toDoList .ul .li {
+  padding: 0;
+}
+.toDoList .ul .li p {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=styles.css.map */

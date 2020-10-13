@@ -1,0 +1,238 @@
+
+p{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header{
+  .title{
+    h1{
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 47px;
+      letter-spacing: 1px;
+      color: #000000;
+      max-width: 377px;
+      margin: 50px auto;
+    }
+    .ul{
+      display: flex;
+      li{
+        margin: 0 auto;
+        a{
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          letter-spacing: 2px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+.main__hero{
+  margin-top:40px;
+  h1{
+    max-width: 752px;
+    padding-top: 140px;
+    margin: 0 auto 140px auto;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  p{
+    padding-bottom: 36px;
+    margin: 0 auto;
+    max-width: 456px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+.main__cards{
+  margin-top:40px;
+  h1{
+    margin: 0 auto;
+    max-width: 83px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  .ul{
+    display: flex;
+    .li {
+      margin: 0 auto;
+      .card {
+        max-width: 370px;
+          h1{
+            max-width: 370px;
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 23px;
+            line-height: 31px;
+            color: #000000;
+          }
+          .orange{
+            color: #FF7931;
+          }
+          p{
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            color: #000000;
+          }
+      }
+    }
+  }
+}
+
+.main__subscription{
+  position: relative;
+  background: #f7f7f7;
+  height: 704px;
+
+  .center{
+    margin: 0 auto;
+    height: 704px;
+    border-radius: 352px;
+    background: white;
+    max-width: 704px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      max-width: 230px;
+      padding-top: 100px;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      color: #000000;
+    }
+    .ul{
+      margin: 35px 0 0 0;
+      max-width: 372px;
+      padding: 0;
+      .li{
+        margin-top:24px;
+        h2{
+          font-family: Playfair Display;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 23px;
+          line-height: 31px;
+          text-align: center;
+          color: #000000;
+        }
+        p{
+          margin-top:10px;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%;
+
+          text-align: center;
+
+          color: #000000;
+
+        }
+
+      }
+    }
+    button{
+
+      margin-top: 42px;
+      width: 172px;
+      height: 48px;
+      text-align: center;
+      background: #FF7931;
+      box-shadow: none;
+      border: none;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+
+    }
+  }
+}
+.main__subscription:before{
+  position: absolute;
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 50px;
+  background: white;
+
+
+}
+.main__subscription:after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50px;
+  background: white;
+  transform: translateY(-50px);
+}
+
+footer{
+  background: #575757;
+  .title{
+    h1{
+      padding-top: 28px;
+      margin: 0 auto;
+      max-width: 280px;
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 37px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    .ul{
+      display: flex;
+      li{
+        margin: 44px auto;
+        a{
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
